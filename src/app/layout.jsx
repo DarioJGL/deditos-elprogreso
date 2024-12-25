@@ -1,8 +1,8 @@
 import { Poppins, Roboto } from 'next/font/google';
 import NavBar from '../ui/NavBar';
 import Footer from '../ui/Footer';
-import Cta from '../ui/Cta';
 import './globals.css';
+import BotonFlot from '@/ui/BotonFlot';
 
 export const metadata = {
   title: 'Deditos El Progreso | Sabores que unen familias',
@@ -18,6 +18,10 @@ export const metadata = {
     'pasabocas en galapa',
     'pasabocas en atlántico',
     'pasabocas en barranquilla',
+    'deditos en galapa',
+    'deditos en atlántico',
+    'deditos en barranquilla',
+    'pasabocas para fiestas',
   ],
   author: 'Equipo Deditos El Progreso',
   icons: {
@@ -26,7 +30,7 @@ export const metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://www.deditoselprogreso.com',
+    url: 'https://www.deditoselprogreso.shop',
     title: 'Deditos El Progreso | Sabores que unen familias',
     description:
       'Descubre nuestros deliciosos pasabocas congelados, ideales para compartir en cualquier ocasión.',
@@ -50,7 +54,7 @@ export const metadata = {
   },
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://www.deditoselprogreso.com',
+    canonical: 'https://www.deditoselprogreso.shop',
   },
 };
 
@@ -85,6 +89,11 @@ export default function RootLayout({ children }) {
           <NavBar></NavBar>
         </header>
         {children}
+        <BotonFlot
+          link="https://wa.me/3004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
+          iconSrc="/whats-icon.svg"
+          altText="Contactar por WhatsApp"
+        />
         <Footer></Footer>
       </body>
     </html>

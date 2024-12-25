@@ -14,11 +14,14 @@ export default function Home() {
           sabor tradicional de la región. Nuestra oferta incluye una deliciosa
           variedad de productos como deditos de queso, empanaditas de carne y
           pollo, y salchirollos, perfectos para desayunos, meriendas y eventos
-          especiales. Cada producto está elaborado con ingredientes frescos y un
-          cuidadoso proceso que garantiza su sabor y textura. Si buscas
-          pasabocas prácticos y deliciosos para cualquier ocasión, Deditos El
-          Progreso es tu mejor elección. ¡Descubre la tradición y calidad en
-          cada bocado!
+          especiales.
+        </p>
+
+        <p className={styles['descripcion-adicional']}>
+          Cada producto está elaborado con ingredientes frescos y un cuidadoso
+          proceso que garantiza su sabor y textura. Si buscas pasabocas
+          prácticos y deliciosos para cualquier ocasión, Deditos El Progreso es
+          tu mejor elección. ¡Descubre la tradición y calidad en cada bocado!
         </p>
         <a
           href=""
