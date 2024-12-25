@@ -3,6 +3,7 @@ import NavBar from '../ui/NavBar';
 import Footer from '../ui/Footer';
 import './globals.css';
 import BotonFlot from '@/ui/BotonFlot';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata = {
   title: 'Deditos El Progreso | Sabores que unen familias',
