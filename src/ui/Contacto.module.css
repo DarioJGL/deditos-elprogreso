@@ -1,0 +1,82 @@
+.container {
+    margin: 1rem auto;
+    margin-top: 160px;
+    padding: 3rem;
+    max-width: 500px;
+    background-color: var(--color-blanco);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-rojo);
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input,
+.textarea {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.select {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    border-color: var(--color-rojo);
+}
+
+.button {
+    background-color: var(--color-rojo);
+    color: var(--color-blanco);
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: var(--color-rojo-hover);
+}
+
+
+@media (width >=768px) {
+    .container {
+        margin-top: 170px;
+        max-width: 700px;
+    }
+
+    .input,
+    .textarea {
+        width: 95%;
+    }
+}

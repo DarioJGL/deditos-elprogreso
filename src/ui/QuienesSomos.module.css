@@ -1,0 +1,85 @@
+.main {
+    background: linear-gradient(rgb(206, 39, 39, 0.80), rgba(255, 255, 255, 0.85)), url('../../public/fondo-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 1rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.missionVisionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.section {
+    flex: 1;
+    background-color: var(--color-gris-claro);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.section:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.values {
+    width: 100%;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+@media (min-width: 780px) {
+    .values {
+        width: 50%;
+    }
+
+    .missionVisionContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

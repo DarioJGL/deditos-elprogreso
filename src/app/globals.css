@@ -1,0 +1,338 @@
+:root {
+
+  --color-rojo: #ce2727;
+  --color-rojo-hover: #a61f1f;
+
+  --color-blanco: #ffffff;
+
+  --color-negro: #2c2c2c;
+
+  --color-gris-claro: #f2f2f2;
+
+  --color-marron-claro: #e0b382;
+
+  --font-principal: 'Poppins', sans-serif;
+
+  --font-secundaria: 'Roboto', sans-serif;
+}
+
+/* ---------------------------  Header  ------------------------------------------*/
+html {
+  background-color: var(--color-gris-claro)
+}
+
+body {
+  margin: 0;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--color-rojo);
+
+}
+
+main {
+  margin-top: 60px;
+
+}
+
+
+
+.logo-imagen {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 2.2rem;
+}
+
+.logo-titulo {
+  display: block;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* Barra de navegación */
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  color: white;
+  position: relative;
+}
+
+.barra-navegacion .logo a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.enlaces-navegacion {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-rojo);
+  width: 100%;
+  z-index: 100;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.98;
+}
+
+.enlaces-navegacion li {
+  text-align: center;
+  padding: 1rem 0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enlaces-navegacion li:hover {
+
+  color: var(--color-rojo-hover);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: var(--color-rojo-hover);
+
+}
+
+.oculto {
+  display: none;
+}
+
+.click {
+  color: var(--color-rojo-hover);
+}
+
+.redes-sociales {
+  display: flex;
+  gap: 0.3rem;
+}
+
+/* Botón hamburguesa */
+.boton-hamburguesa {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.boton-hamburguesa:focus {
+  transform: scale(1.1);
+}
+
+.boton-hamburguesa:focus span {
+  background-color: black;
+}
+
+.boton-hamburguesa span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+
+.activo {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
+  main {
+    margin-top: 100px;
+  }
+
+  .logo-imagen {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 11rem;
+  }
+
+  .barra-navegacion {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .enlaces-navegacion {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background: none;
+    width: auto;
+  }
+
+  .enlaces-navegacion li {
+    padding: 0;
+    margin: 0 1rem;
+  }
+
+  .link-oculto {
+    display: none;
+  }
+
+  .oculto {
+    display: block;
+  }
+
+  .boton-hamburguesa {
+    display: none;
+    /* Oculta el botón en pantallas grandes */
+  }
+
+  .redes-sociales {
+    gap: 2.5rem;
+  }
+
+}
+
+
+
+/* ----------------------- Footer ---------------------------- */
+.footer {
+  background-color: var(--color-rojo);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contenedor-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer p,
+.footer ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: var(--color-secundario-hover);
+}
+
+.contacto,
+.redes-sociales-footer,
+.enlace-rapido {
+  flex: 1;
+  min-width: 220px;
+
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+}
+
+.telefono {
+
+  color: white;
+}
+
+.telefono:hover {
+  color: var(--color-rojo-hover);
+}
+
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 0.5rem;
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contacto,
+  .redes-sociales-footer,
+  .enlace-rapido {
+    min-width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .enlace-rapido {
+    display: none;
+  }
+}
+
+/* Derechos reservados */
+.derechos-reservados {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
+/* Botón flotante de WhatsApp */
+.boton-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.boton-whatsapp img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Efecto hover */
+.boton-whatsapp:hover {
+  transform: scale(1.1);
+}
