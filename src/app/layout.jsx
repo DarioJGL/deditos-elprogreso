@@ -4,6 +4,7 @@ import Footer from '../ui/Footer';
 import './globals.css';
 import BotonFlot from '@/ui/BotonFlot';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: 'Deditos El Progreso | Sabores que unen familias',
@@ -86,6 +87,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${poppins.variable} ${roboto.variable} antialiased`}>
+        <Analytics />
+        <SpeedInsights />
         <header>
           <NavBar></NavBar>
         </header>
