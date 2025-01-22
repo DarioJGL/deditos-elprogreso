@@ -13,7 +13,7 @@ export default function Footer() {
             <strong>Teléfono 1:</strong>{' '}
             <Link
               className="telefono"
-              href="https://wa.me/3004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
+              href="https://wa.me/+573004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
             >
               +57 300 414 8274
             </Link>
@@ -23,7 +23,7 @@ export default function Footer() {
             <strong>Teléfono 2:</strong>{' '}
             <Link
               className="telefono"
-              href="https://wa.me/3002824169?text=Estoy%20interesado%20en%20los%20pasabocas"
+              href="https://wa.me/+573002824169?text=Estoy%20interesado%20en%20los%20pasabocas"
             >
               +57 300 282 4169
             </Link>

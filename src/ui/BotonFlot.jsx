@@ -22,7 +22,7 @@ export default function BotonFlot({ link, iconSrc, altText }) {
 }
 
 BotonFlot.defaultProps = {
-  link: 'https://wa.me/3004148274?text=Estoy%20interesado%20en%20los%20pasabocas', // Enlace predeterminado
+  link: 'https://wa.me/+573004148274?text=Estoy%20interesado%20en%20los%20pasabocas', // Enlace predeterminado
   iconSrc: '/whats-icon.svg', // Ruta predeterminada del ícono
   altText: 'WhatsApp', // Texto alternativo predeterminado
 };

@@ -13,7 +13,7 @@ const productos = [
       'Deliciosos deditos de queso con masa crujiente y relleno cremoso.',
     imagen: '/pro-deditosqueso.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Deditos%20de%20Queso',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Deditos%20de%20Queso',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const productos = [
     descripcion: 'Un toque dulce con bocadillo en su interior y masa crocante.',
     imagen: '/pro-deditosbocadillo.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Deditos%20de%20Bocadillo',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Deditos%20de%20Bocadillo',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const productos = [
     descripcion: 'Pequeñas empanadas rellenas de pollo sazonado y jugoso.',
     imagen: '/pro-empanadaspollo.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Empanaditas%20de%20Pollo',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Empanaditas%20de%20Pollo',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const productos = [
     descripcion: 'Empanadas mini rellenas de carne molida condimentada.',
     imagen: '/pro-empanadascarne.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Empanaditas%20de%20Carne',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Empanaditas%20de%20Carne',
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const productos = [
       'Medallones crujientes con salchicha en su interior, ideales para snacks.',
     imagen: '/pro-salchirollos.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Medallones%20de%20Salchichas',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Medallones%20de%20Salchichas',
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const productos = [
       'Deditos de queso en tamaño grande para disfrutar más del sabor.',
     imagen: '/pro-deditosgrandes.jpg',
     whatsapp:
-      'https://wa.me/3004148274?text=Quiero%20pedir%20Deditos%20de%20Queso%20Grandes',
+      'https://wa.me/+573004148274?text=Quiero%20pedir%20Deditos%20de%20Queso%20Grandes',
   },
 ];
 

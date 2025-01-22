@@ -4,7 +4,7 @@ import Footer from '../ui/Footer';
 import './globals.css';
 import BotonFlot from '@/ui/BotonFlot';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Deditos El Progreso | Sabores que unen familias',
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <BotonFlot
-          link="https://wa.me/3004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
+          link="https://wa.me/+573004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
           iconSrc="/whats-icon.svg"
           altText="Contactar por WhatsApp"
         />

@@ -12,7 +12,7 @@ export default function Cta() {
         por mayor y al detal.
       </p>
       <Link
-        href="https://wa.me/3004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
+        href="https://wa.me/+573004148274?text=Estoy%20interesado%20en%20los%20pasabocas"
         className={styles.boton}
       >
         Escribenos por WhatsApp
