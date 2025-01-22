@@ -2,6 +2,7 @@
     background: linear-gradient(rgb(206, 39, 39, 0.80), rgba(255, 255, 255, 0.85)), url('../../public/fondo-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .container {
@@ -73,6 +74,11 @@
 
 
 @media (min-width: 780px) {
+
+    .main {
+        margin-top: 100px;
+    }
+
     .values {
         width: 50%;
     }
