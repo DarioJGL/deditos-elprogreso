@@ -157,10 +157,10 @@ main {
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media (width > 768px) {
 
   main {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .logo-imagen {
